@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="650" viewBox="0 0 1600 650" role="img" aria-labelledby="title desc">
+  <title id="title">Truth-First Counterargument</title>
+  <desc id="desc">Evidence-first verification, honest concession, and resilient rebuttal.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.55" stop-color="#10182e"/>
+      <stop offset="1" stop-color="#081622"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset="0.52" stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="650" rx="34" fill="url(#bg)"/>
+  <circle cx="1350" cy="80" r="260" fill="#2dd4bf" opacity="0.08" filter="url(#glow)"/>
+  <circle cx="190" cy="570" r="280" fill="#8b5cf6" opacity="0.08" filter="url(#glow)"/>
+  <g transform="translate(118,105)">
+    <circle cx="78" cy="78" r="70" fill="#0d2230" stroke="#2dd4bf" stroke-width="4"/>
+    <circle cx="68" cy="68" r="30" fill="none" stroke="#e5f9f6" stroke-width="9"/>
+    <path d="M90 91 L125 126" stroke="#e5f9f6" stroke-width="11" stroke-linecap="round"/>
+    <path d="M39 76 L58 95 L94 48" fill="none" stroke="#2dd4bf" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="318" y="150" fill="#94a3b8" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="25" font-weight="700" letter-spacing="5">CODEX SKILL · v1.0</text>
+  <text x="318" y="235" fill="#f8fafc" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="72" font-weight="800">Truth-First</text>
+  <text x="318" y="315" fill="url(#accent)" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="72" font-weight="800">Counterargument</text>
+  <text x="320" y="370" fill="#cbd5e1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="26">Verify the claim. Concede what is true. Rebut only what fails.</text>
+  <text x="320" y="412" fill="#94a3b8" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="23">İddiayı doğrula. Doğruyu kabul et. Yalnızca kanıtın taşımadığını çürüt.</text>
+  <g font-family="Segoe UI, Inter, Arial, sans-serif" font-size="19" font-weight="700">
+    <rect x="320" y="468" width="245" height="54" rx="27" fill="#0f2a2a" stroke="#2dd4bf"/>
+    <text x="442" y="502" fill="#7ff7e6" text-anchor="middle">01 · VERIFY</text>
+    <rect x="585" y="468" width="360" height="54" rx="27" fill="#2b2313" stroke="#fbbf24"/>
+    <text x="765" y="502" fill="#fde68a" text-anchor="middle">02 · CONCEDE WHEN TRUE</text>
+    <rect x="965" y="468" width="490" height="54" rx="27" fill="#281827" stroke="#fb7185"/>
+    <text x="1210" y="502" fill="#fda4af" text-anchor="middle">03 · REBUT WHEN EVIDENCE FAILS</text>
+  </g>
+  <rect x="320" y="565" width="1135" height="4" rx="2" fill="#1e293b"/>
+  <rect x="320" y="565" width="760" height="4" rx="2" fill="url(#accent)"/>
+</svg>

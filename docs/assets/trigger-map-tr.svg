@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Dar tetikleme sınırı</title>
+  <desc id="desc">Açık karşı-argüman isteği skili tetikler; tarafsız araştırma ve açıklama tetiklemez.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07111f"/><stop offset="1" stop-color="#111a31"/></linearGradient></defs>
+  <rect width="1600" height="900" rx="30" fill="url(#bg)"/>
+  <text x="90" y="90" fill="#f8fafc" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="50" font-weight="800">Bilerek dar tasarlandı</text>
+  <text x="92" y="134" fill="#94a3b8" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="23">Yalnızca kullanıcı açıkça karşı cevap üretmek istediğinde devreye girer.</text>
+  <g font-family="Segoe UI, Inter, Arial, sans-serif">
+    <rect x="90" y="190" width="670" height="560" rx="28" fill="#0e2927" stroke="#2dd4bf" stroke-width="3"/>
+    <circle cx="150" cy="250" r="30" fill="#2dd4bf"/><path d="M137 250 L147 260 L166 237" fill="none" stroke="#06201c" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="200" y="260" fill="#99f6e4" font-size="32" font-weight="800">TETİKLER</text>
+    <text x="135" y="330" fill="#e2e8f0" font-size="25" font-weight="700">“Buna karşı ne diyebilirim?”</text>
+    <text x="135" y="392" fill="#e2e8f0" font-size="25" font-weight="700">“Bu iddiayı nasıl çürütürüm?”</text>
+    <text x="135" y="454" fill="#e2e8f0" font-size="25" font-weight="700">“Kaynaklı karşı argüman sun.”</text>
+    <text x="135" y="516" fill="#e2e8f0" font-size="25" font-weight="700">“Bu tez için münazaraya hazırla.”</text>
+    <rect x="135" y="586" width="580" height="108" rx="18" fill="#09211f" stroke="#1f6f66"/>
+    <text x="165" y="627" fill="#5eead4" font-size="21" font-weight="700">AÇIK NİYET</text>
+    <text x="165" y="661" fill="#cbd5e1" font-size="20">doğrula + karşı cevap oluştur</text>
+    <rect x="840" y="190" width="670" height="560" rx="28" fill="#271720" stroke="#fb7185" stroke-width="3"/>
+    <circle cx="900" cy="250" r="30" fill="#fb7185"/><path d="M887 237 L913 263 M913 237 L887 263" stroke="#2a0914" stroke-width="7" stroke-linecap="round"/>
+    <text x="950" y="260" fill="#fda4af" font-size="32" font-weight="800">TETİKLEMEZ</text>
+    <text x="885" y="330" fill="#e2e8f0" font-size="25" font-weight="700">“Bunu araştır.”</text>
+    <text x="885" y="392" fill="#e2e8f0" font-size="25" font-weight="700">“Bu doğru mu?”</text>
+    <text x="885" y="454" fill="#e2e8f0" font-size="25" font-weight="700">“Ama bu nasıl olur?”</text>
+    <text x="885" y="516" fill="#e2e8f0" font-size="25" font-weight="700">“Tarafsızca artılarını eksilerini ver.”</text>
+    <rect x="885" y="586" width="580" height="108" rx="18" fill="#211018" stroke="#7f3347"/>
+    <text x="915" y="627" fill="#fda4af" font-size="21" font-weight="700">KARŞI CEVAP NİYETİ YOK</text>
+    <text x="915" y="661" fill="#cbd5e1" font-size="20">tarafsız araştırma, özet veya açıklama</text>
+  </g>
+  <rect x="90" y="790" width="1420" height="60" rx="18" fill="#0b1528" stroke="#26344c"/>
+  <text x="800" y="828" text-anchor="middle" fill="#e2e8f0" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="21" font-weight="700">Yönlendirme belirsizse tarafsız kal. Münazara çerçevesini zorla yükleme.</text>
+</svg>

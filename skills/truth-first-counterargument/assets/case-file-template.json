@@ -1,0 +1,56 @@
+{
+  "case_id": "YYYYMMDD-short-slug",
+  "title": "Short neutral case title",
+  "user_language": "tr",
+  "last_verified": "YYYY-MM-DD",
+  "target": {
+    "exact_quote": "",
+    "paraphrase": "",
+    "speaker": "",
+    "original_url": "",
+    "published_at": "",
+    "context_notes": ""
+  },
+  "definitions": [],
+  "atomic_claims": [
+    {
+      "id": "C1",
+      "claim": "",
+      "type": "factual",
+      "materiality": 3,
+      "truth_estimate_percent": null,
+      "research_confidence": "low",
+      "verdict": "unresolved",
+      "decisive_reason": "",
+      "what_would_change_it": ""
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E1",
+      "claim_ids": ["C1"],
+      "stance": "context",
+      "mixed_direction": 0.0,
+      "title": "",
+      "url": "",
+      "publisher": "",
+      "author": "",
+      "published_at": "",
+      "event_at": "",
+      "independence_group": "origin-1",
+      "source_quality": 0,
+      "directness": 0,
+      "relevance": 0,
+      "transparency": 0,
+      "materiality": 0,
+      "exact_support": "",
+      "limitations": "",
+      "correction_status": ""
+    }
+  ],
+  "accepted_concessions": [],
+  "strongest_live_rebuttal": "",
+  "strongest_opponent_comeback": "",
+  "do_not_claim": [],
+  "unresolved_questions": []
+}

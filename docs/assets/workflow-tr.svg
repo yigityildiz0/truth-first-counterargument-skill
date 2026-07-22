@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Truth-First Counterargument Türkçe iş akışı</title>
+  <desc id="desc">İddianın alınmasından stres testli cevaba uzanan altı aşama.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07111f"/><stop offset="1" stop-color="#111a31"/></linearGradient>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#475569"/></marker>
+  </defs>
+  <rect width="1600" height="900" rx="30" fill="url(#bg)"/>
+  <text x="90" y="92" fill="#f8fafc" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="50" font-weight="800">Viral iddiadan savunulabilir cevaba</text>
+  <text x="92" y="136" fill="#94a3b8" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="23">Araştırma ile çürütme arasında doğruluk kapısı var: sistem “karşı çıkma” diyebilir.</text>
+  <g stroke="#475569" stroke-width="4" fill="none" marker-end="url(#arrow)">
+    <path d="M485 300 H565"/><path d="M1035 300 H1115"/><path d="M1340 425 V505"/><path d="M1115 650 H1035"/><path d="M565 650 H485"/>
+  </g>
+  <g font-family="Segoe UI, Inter, Arial, sans-serif">
+    <g transform="translate(90,205)">
+      <rect width="395" height="190" rx="24" fill="#0d2330" stroke="#2dd4bf" stroke-width="2"/>
+      <circle cx="48" cy="48" r="25" fill="#2dd4bf"/><text x="48" y="56" fill="#06201c" font-size="24" font-weight="800" text-anchor="middle">1</text>
+      <text x="90" y="55" fill="#f8fafc" font-size="29" font-weight="800">İddiayı kilitle</text>
+      <text x="30" y="104" fill="#cbd5e1" font-size="21">Tam alıntı · özgün link · tarih</text>
+      <text x="30" y="137" fill="#cbd5e1" font-size="21">kişi · kapsam · tanımlar</text>
+      <text x="30" y="169" fill="#7dd3fc" font-size="18">Belirsiz özete karşı çürütme yok</text>
+    </g>
+    <g transform="translate(565,205)">
+      <rect width="470" height="190" rx="24" fill="#101d33" stroke="#60a5fa" stroke-width="2"/>
+      <circle cx="48" cy="48" r="25" fill="#60a5fa"/><text x="48" y="56" fill="#071625" font-size="24" font-weight="800" text-anchor="middle">2</text>
+      <text x="90" y="55" fill="#f8fafc" font-size="29" font-weight="800">Parçala</text>
+      <text x="30" y="104" fill="#cbd5e1" font-size="21">Olgu · neden · sayı · tanım</text>
+      <text x="30" y="137" fill="#cbd5e1" font-size="21">tarih · tahmin · değer yargısı</text>
+      <text x="30" y="169" fill="#93c5fd" font-size="18">Alt iddiaları ayrı değerlendir</text>
+    </g>
+    <g transform="translate(1115,205)">
+      <rect width="395" height="190" rx="24" fill="#1b1a33" stroke="#a78bfa" stroke-width="2"/>
+      <circle cx="48" cy="48" r="25" fill="#a78bfa"/><text x="48" y="56" fill="#170f2a" font-size="24" font-weight="800" text-anchor="middle">3</text>
+      <text x="90" y="55" fill="#f8fafc" font-size="29" font-weight="800">Kanıtı izle</text>
+      <text x="30" y="104" fill="#cbd5e1" font-size="21">Birincil kaynağı aç</text>
+      <text x="30" y="137" fill="#cbd5e1" font-size="21">Ortak kökenleri tekilleştir</text>
+      <text x="30" y="169" fill="#c4b5fd" font-size="18">On yankı hâlâ tek kaynak olabilir</text>
+    </g>
+    <g transform="translate(1115,505)">
+      <rect width="395" height="190" rx="24" fill="#2b2313" stroke="#fbbf24" stroke-width="2"/>
+      <circle cx="48" cy="48" r="25" fill="#fbbf24"/><text x="48" y="56" fill="#2a1c02" font-size="24" font-weight="800" text-anchor="middle">4</text>
+      <text x="90" y="55" fill="#f8fafc" font-size="29" font-weight="800">Kalibre et</text>
+      <text x="30" y="104" fill="#cbd5e1" font-size="21">Doğruluk tahmini + araştırma güveni</text>
+      <text x="30" y="137" fill="#cbd5e1" font-size="21">Çelişki ve boşlukları göster</text>
+      <text x="30" y="169" fill="#fde68a" font-size="18">Sahte kesinlik yok</text>
+    </g>
+    <g transform="translate(565,505)">
+      <rect width="470" height="190" rx="24" fill="#17271e" stroke="#4ade80" stroke-width="2"/>
+      <circle cx="48" cy="48" r="25" fill="#4ade80"/><text x="48" y="56" fill="#082013" font-size="24" font-weight="800" text-anchor="middle">5</text>
+      <text x="90" y="55" fill="#f8fafc" font-size="29" font-weight="800">Dürüstlük kapısı</text>
+      <text x="30" y="104" fill="#86efac" font-size="21" font-weight="700">KABUL ET</text><text x="154" y="104" fill="#cbd5e1" font-size="21">çekirdek doğruysa</text>
+      <text x="30" y="137" fill="#fde68a" font-size="21" font-weight="700">DARALT</text><text x="131" y="137" fill="#cbd5e1" font-size="21">yalnız kapsam taşıyorsa</text>
+      <text x="30" y="170" fill="#fda4af" font-size="21" font-weight="700">ÇÜRÜT</text><text x="116" y="170" fill="#cbd5e1" font-size="21">yük taşıyan öncül kırılırsa</text>
+    </g>
+    <g transform="translate(90,505)">
+      <rect width="395" height="190" rx="24" fill="#2b1824" stroke="#fb7185" stroke-width="2"/>
+      <circle cx="48" cy="48" r="25" fill="#fb7185"/><text x="48" y="56" fill="#2a0914" font-size="24" font-weight="800" text-anchor="middle">6</text>
+      <text x="90" y="55" fill="#f8fafc" font-size="29" font-weight="800">Cevap + stres testi</text>
+      <text x="30" y="104" fill="#cbd5e1" font-size="21">Halk ağzı cevap · kanıt · mantık</text>
+      <text x="30" y="137" fill="#cbd5e1" font-size="21">en güçlü dönüş · cevabı</text>
+      <text x="30" y="169" fill="#fda4af" font-size="18">Bir de asla söylememen gereken</text>
+    </g>
+  </g>
+  <rect x="90" y="770" width="1420" height="75" rx="20" fill="#0b1528" stroke="#26344c"/>
+  <text x="800" y="817" text-anchor="middle" fill="#e2e8f0" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="22" font-weight="700">ÇIKTI · hüküm % + güven · hazır cevap · iddia bazlı kaynak · muhtemel dönüş · “söyleme” sınırı</text>
+</svg>
