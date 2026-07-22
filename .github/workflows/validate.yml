@@ -33,6 +33,12 @@ jobs:
         run: |
           ./build-release.ps1
           python tests/verify_release.py
+      - name: Build and verify release ZIP with Windows PowerShell 5.1
+        if: runner.os == 'Windows'
+        shell: powershell
+        run: |
+          ./build-release.ps1
+          python tests/verify_release.py
       - name: Test POSIX installer
         if: runner.os != 'Windows'
         shell: sh

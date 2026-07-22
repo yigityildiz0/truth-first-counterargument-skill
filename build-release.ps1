@@ -19,14 +19,22 @@ $archivePath = Join-Path $OutputDirectory "$skillName.zip"
 $temporaryArchive = Join-Path $OutputDirectory (".$skillName-" + [guid]::NewGuid().ToString('N') + '.tmp.zip')
 
 try {
-    New-Item -ItemType Directory -Force -Path $stageRoot, $OutputDirectory | Out-Null
-    Copy-Item -Recurse -LiteralPath $sourcePath -Destination $stageSkill
+    New-Item -ItemType Directory -Force -Path $stageRoot | Out-Null
+    New-Item -ItemType Directory -Force -Path $stageSkill | Out-Null
+    New-Item -ItemType Directory -Force -Path $OutputDirectory | Out-Null
+    foreach ($entry in $allowedTopLevel) {
+        $entryPath = Join-Path $sourcePath $entry
+        if (Test-Path -LiteralPath $entryPath) {
+            $entryDestination = Join-Path $stageSkill $entry
+            Copy-Item -Recurse -LiteralPath $entryPath -Destination $entryDestination
+        }
+    }
 
-    $generatedDirectories = @(Get-ChildItem -Recurse -Directory -LiteralPath $stageSkill -Filter '__pycache__')
+    $generatedDirectories = @(Get-ChildItem -Recurse -Directory -LiteralPath $stageSkill | Where-Object { $_.Name -eq '__pycache__' })
     foreach ($generatedDirectory in $generatedDirectories) {
         Remove-Item -Recurse -Force -LiteralPath $generatedDirectory.FullName
     }
-    $generatedFiles = @(Get-ChildItem -Recurse -File -LiteralPath $stageSkill -Include '*.pyc', '*.pyo')
+    $generatedFiles = @(Get-ChildItem -Recurse -File -LiteralPath $stageSkill | Where-Object { $_.Extension -in @('.pyc', '.pyo') })
     foreach ($generatedFile in $generatedFiles) {
         Remove-Item -Force -LiteralPath $generatedFile.FullName
     }
