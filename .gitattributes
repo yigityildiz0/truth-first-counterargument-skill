@@ -13,3 +13,9 @@
 *.yaml text eol=lf
 *.yml text eol=lf
 *.zip binary
+
+# CURRENT PROVIDER PAYLOAD BYTES
+# Packages and checked-out provider sources must have identical bytes on every OS.
+skills/common/truth-first-counterargument/** -text
+skills/codex/truth-first-counterargument/** -text
+skills/claude/truth-first-counterargument/** -text
