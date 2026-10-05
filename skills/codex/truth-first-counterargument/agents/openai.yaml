@@ -1,0 +1,6 @@
+interface:
+  display_name: "Truth-First Counterargument"
+  short_description: "Verify first, then build honest rebuttals"
+  default_prompt: "Use $truth-first-counterargument to verify this claim, then draft the strongest honest rebuttal—or tell me to concede if the claim is well supported."
+policy:
+  allow_implicit_invocation: true

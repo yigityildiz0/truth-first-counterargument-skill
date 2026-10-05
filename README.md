@@ -1,3 +1,32 @@
+<!-- CURRENT-SKILL-PUBLICATION -->
+![Truth-First Counterargument](assets/collection-hero.svg)
+
+# Truth-First Counterargument
+
+Verify claims, concede supported points, and build sourced rebuttals. This **1 workflow** help the assistant select tools, check evidence and produce reviewable results. They do not change model weights or guarantee better decisions.
+
+[![Download ChatGPT](https://img.shields.io/badge/ChatGPT-Download_ZIP-10a37f?style=for-the-badge)](https://github.com/yigityildiz0/truth-first-counterargument-skill/raw/refs/heads/main/downloads/ChatGPT.zip) [![Download Claude](https://img.shields.io/badge/Claude-Download_ZIP-d97757?style=for-the-badge)](https://github.com/yigityildiz0/truth-first-counterargument-skill/raw/refs/heads/main/downloads/Claude.zip)
+
+**ChatGPT:** the button downloads a plugin with all listed skills and supporting files. Use the personal-plugin/skill import supported by your account. A single-skill ChatGPT button downloads a one-skill plugin. **Claude:** unpack the collection ZIP, then upload its individual skill ZIPs; the outer collection is not a single Claude skill. Local Codex/Claude Code files and cloud-account installation are separate.
+
+Use natural English or Turkish requests. A slash-prefixed word typed in chat does not register a host command. Explicit local skill invocation uses the canonical skill name; available tools, network access and credentials remain host-dependent.
+
+## Included skills
+
+| Skill | What it solves / example request | ChatGPT | Claude |
+|---|---|---|---|
+| [`truth-first-counterargument`](skills/common/truth-first-counterargument/SKILL.md) | Evidence-first verification and rebuttals to specific claims. Use only when the user explicitly wants an opposing or corrective response, for example "what can I say against this?", "how can I refute this?", rebut/refute/debunk/dismantle/challenge a claim, draft a sourced correction to alleged misinformation, argue against a specified thesis, "buna karşı ne diyebilirim?", "karşı argüman sun", "bu iddiayı nasıl çürütebilirim", "bu teze karşı münazaraya hazırla", or "yanlış bilgiye düzeltme cevabı yaz". Conditional evidence-first rebuttal requests qualify. Do not use for ordinary research, neutral fact-checking, summaries, explanations, generic critique, "ama bu nasıl olur?", ordinary reply drafting, balanced or two-sided debate preparation, or lists of other people's objections. Negated, quoted, defined, or merely reported rebuttal terms do not trigger. The user must want an opposing/corrective response produced. Verify first and recommend concession when the claim is well supported. | [↓ ZIP](packages/chatgpt/truth-first-counterargument.zip) | [↓ ZIP](packages/claude/truth-first-counterargument.zip) |
+
+## Installation and technical boundaries
+
+- Full canonical sources: `skills/common/`; provider packages: `packages/chatgpt/`, `packages/claude/`, `packages/codex/`.
+- Every Claude skill has at most 200 files and a description of at most 200 characters. ZIPs include all files of the selected provider source.
+- External services (Gemini, Parallel, Context7), local CLIs and subscriptions are not provided by these ZIPs. Report missing tools rather than simulating access.
+- Validation checks package integrity, paths, descriptions, source/package parity and hashes. It is not a live account-installation test or a clinical/financial effectiveness claim.
+- See [checksums](downloads/SHA256SUMS.txt), [provenance](PUBLICATION.md), and [third-party notices](THIRD_PARTY_NOTICES.md). Existing license and copyright files retain their scope; there is no blanket license grant over third-party content.
+
+<!-- END-CURRENT-SKILL-PUBLICATION -->
+
 <div align="center">
 
 ![Truth-First Counterargument](docs/assets/hero.svg)

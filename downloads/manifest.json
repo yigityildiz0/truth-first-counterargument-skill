@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "release_date": "2026-10-05",
+  "slug": "truth-first-counterargument-skill",
+  "skills": [
+    "truth-first-counterargument"
+  ],
+  "provider_sets_equal": true,
+  "source_counts": {
+    "truth-first-counterargument": {
+      "common": 10,
+      "GPT": 10,
+      "Claude": 10
+    }
+  },
+  "account_installation_tested": false,
+  "files": {
+    "downloads/ChatGPT.zip": "dd9f15e0fd8590a10f0dd28bb419c46115b97bae25a67f66fcb36c56cacf27c7",
+    "downloads/Claude.zip": "9c77a478523a9ed8a7a2298a32abb56919f3842f21e61740bba66b7447d58d95",
+    "packages/chatgpt/truth-first-counterargument.zip": "852eaba6eaf6fb1049edf803b4f04d01228106a5fb20174c879110d8dd34ca4e",
+    "packages/claude/truth-first-counterargument.zip": "5deb92083a99ad33a2157925a86ab320e9004bc4a24b7b9bf6f4137ba08a2594",
+    "packages/codex/truth-first-counterargument.zip": "f4e2ef02d5eaa2688ee579580c4eebe9d8abfafe725ca25f562dd14558049817",
+    "packages/common/truth-first-counterargument.zip": "f4e2ef02d5eaa2688ee579580c4eebe9d8abfafe725ca25f562dd14558049817"
+  }
+}
