@@ -1,45 +1,13 @@
-name: Validate skill
-
-on:
-  push:
-  pull_request:
-
+name: Validate maintained edition
+on: [push, pull_request, workflow_dispatch]
 permissions:
   contents: read
-
 jobs:
-  validate:
-    strategy:
-      matrix:
-        os: [ubuntu-latest, windows-latest]
-        python-version: ["3.11", "3.13"]
-    runs-on: ${{ matrix.os }}
+  current:
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - uses: actions/setup-python@v5
         with:
-          python-version: ${{ matrix.python-version }}
-      - name: Validate package
-        run: python tests/verify_package.py
-      - name: Run tests
-        run: python -m unittest discover -s tests -v
-      - name: Test Windows installer
-        if: runner.os == 'Windows'
-        shell: pwsh
-        run: ./tests/test_installer.ps1
-      - name: Build and verify release ZIP
-        if: runner.os == 'Windows'
-        shell: pwsh
-        run: |
-          ./build-release.ps1
-          python tests/verify_release.py
-      - name: Build and verify release ZIP with Windows PowerShell 5.1
-        if: runner.os == 'Windows'
-        shell: powershell
-        run: |
-          ./build-release.ps1
-          python tests/verify_release.py
-      - name: Test POSIX installer
-        if: runner.os != 'Windows'
-        shell: sh
-        run: sh ./tests/test_installer.sh
+          python-version: "3.12"
+      - run: python tools/validate_current.py

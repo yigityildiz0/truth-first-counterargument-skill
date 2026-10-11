@@ -1,25 +1,54 @@
-<!-- CURRENT-SKILL-PUBLICATION -->
-![Truth-First Counterargument](assets/collection-hero.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <img src="assets/hero-light.svg" width="1280" alt="Truth-First — Maintained Research Workflows — clear questions, repeatable workflows, reviewable results">
+</picture>
 
-# Truth-First Counterargument
+# Truth-First — Maintained Research Workflows
 
-1 skill: kaynak araştırma, araç seçimi ve doğrulanabilir sonuç üretme için hazır iş akışları. Modelin ağırlıklarını değiştirmez; sonuç kalitesi kullanılan kaynaklara ve araçlara bağlıdır.
+[English](README.md) · [Türkçe](README.tr.md)
 
-[![Download ChatGPT](https://img.shields.io/badge/ChatGPT-Download_ZIP-10a37f?style=for-the-badge)](https://github.com/yigityildiz0/truth-first-counterargument-skill/raw/refs/heads/main/downloads/ChatGPT.zip) [![Download Claude](https://img.shields.io/badge/Claude-Download_ZIP-d97757?style=for-the-badge)](https://github.com/yigityildiz0/truth-first-counterargument-skill/raw/refs/heads/main/downloads/Claude.zip)
+**Güncel araştırma merkezi içinde iddia doğrulama, kanıt bütünlüğü ve karar sorgulama.**
 
-**ChatGPT:** bütün listelenen skilleri içeren eklenti paketini indir; hesabının desteklediği kişisel eklenti/skill içe aktarma akışını kullan. Tek-skill ChatGPT bağlantısı, tek skill içeren eklenti ZIP’idir. **Claude:** toplu ZIP’i aç, içindeki tekil skill ZIP’lerini ayrı ayrı yükle. Dış ZIP tek bir Claude skill’i değildir. Yerel kurulum bulut hesabına yükleme yapmaz.
+1 bakımı sürdürülen giriş noktası. Göreve göre birini seç; tüm kütüphaneyi bağlama yükleme.
 
-Türkçe veya İngilizce doğal isteklerle kullan; aşağıdaki örnekleri kendi soruna uyarla. Kısa kelimeler seçim ipuçlarıdır; bütün platformlarda aynı slash menüsünü oluşturmaz. Mevcut iş akışları ve güvenlik kuralları korunmuştur.
+[Başla](docs/INSTALL.md) · [Katalog](https://yigityildiz0.github.io/universal-ai-skill-library/) · [İndirmeler](DOWNLOADS.md) · [Bakım modeli](MAINTAINING.md)
 
-## Skill listesi
+## Yapmak istediğin işi seç
 
-| Skill | Çözdüğü sorun / örnek istek | ChatGPT | Claude |
-|---|---|---|---|
-| [`truth-first-counterargument`](skills/common/truth-first-counterargument/SKILL.md) | Evidence-first verification and rebuttals to specific claims. Use only when the user explicitly wants an opposing or corrective response, for example "what can I say against this?", "how can I refute this?", rebut/refute/debunk/dismantle/challenge a claim, draft a sourced correction to alleged misinformation, argue against a specified thesis, "buna karşı ne diyebilirim?", "karşı argüman sun", "bu iddiayı nasıl çürütebilirim", "bu teze karşı münazaraya hazırla", or "yanlış bilgiye düzeltme cevabı yaz". Conditional evidence-first rebuttal requests qualify. Do not use for ordinary research, neutral fact-checking, summaries, explanations, generic critique, "ama bu nasıl olur?", ordinary reply drafting, balanced or two-sided debate preparation, or lists of other people's objections. Negated, quoted, defined, or merely reported rebuttal terms do not trigger. The user must want an opposing/corrective response produced. Verify first and recommend concession when the claim is well supported. | [↓ ZIP](packages/chatgpt/truth-first-counterargument.zip) | [↓ ZIP](packages/claude/truth-first-counterargument.zip) |
+<details open>
+<summary><strong>Araştırma ve analiz</strong> · 1</summary>
 
-## Teknik bilgiler
+| Skill | Ne işe yarar? |
+|---|---|
+| [research-analyst](docs/skills/research-analyst.tr.md) | Hızlı/derin araştırma, iddia doğrulama, sentez ve zaman damgalı video analizini yönlendirir. |
 
-Claude açıklamaları en fazla 200 karakterdir; her skill paketi en fazla 200 dosya içerir. Kaynaklar, yardımcı betikler ve lisanslar paketlenir. API anahtarları, ücretli erişim, yerel CLI ve canlı veri bağlantıları paketin parçası değildir. Kontroller paket yapısını ve kaynak eşleşmesini doğrular; hesapta yükleme, klinik doğruluk veya yatırım performansı testi yapıldığı anlamına gelmez. [Bütünlük değerleri](downloads/SHA256SUMS.txt) · [Kaynak ve lisans bilgisi](THIRD_PARTY_NOTICES.md).
+</details>
 
-<!-- END-CURRENT-SKILL-PUBLICATION -->
+## Bir skill nasıl çalışır?
 
+~~~mermaid
+flowchart LR
+ A[Your goal] --> B[Match the skill]
+ B --> C[Load relevant module]
+ C --> D[Use available tools]
+ D --> E[Verify and explain]
+~~~
+
+Bu bir iş akışıdır; araç çalıştırıldığı veya bütün sonuçların doğrulandığı iddiası değildir. Her skill sayfasında örnek istek, tetikleme, mekanik, girdi/çıktı ve kaynak modüller var.
+
+## Tek kaynak, kalıcı koleksiyonlar
+
+Ana kaynak [Universal AI Skill Library](https://github.com/yigityildiz0/universal-ai-skill-library). Alan depoları aynı sürümün seçilmiş görünümleridir; ayrı ayrı çatallanıp elle düzenlenmez. Mevcut bağlantılar ve geçmiş korunur.
+
+[All collections / Tüm koleksiyonlar](COLLECTIONS.md) · [Legacy/community resources](LEGACY.md) · [Licenses & provenance](docs/LICENSE-SCOPE.md)
+
+## Dürüst kapsam
+
+- Skill kurmak model eğitmek veya hesap/araç bağlamak değildir.
+- Yerel dosya ile web hesabına yükleme farklıdır; desteklenen host akışını kullan.
+- Ek ücretli API veya model indirme otomatik yapılmaz.
+- Eski topluluk kataloğu güncel giriş noktalarının sayısına veya test iddiasına dahil değildir.
+- Kaynak lisansları korunur; bütün üçüncü taraf içeriğine tek lisans varsayılmaz.
+
+---
+Maintained by [Yigit Yildiz](https://github.com/yigityildiz0) · Source edition 2026.10.11

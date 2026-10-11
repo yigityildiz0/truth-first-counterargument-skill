@@ -1,0 +1,25 @@
+{
+  "title": "Truth-First — Maintained Research Workflows",
+  "summary": "Claim verification, evidence integrity and decision challenges within the maintained research hub.",
+  "summary_tr": "Güncel araştırma merkezi içinde iddia doğrulama, kanıt bütünlüğü ve karar sorgulama.",
+  "skills": [
+    "research-analyst"
+  ],
+  "topics": [
+    "agent-skills",
+    "fact-checking",
+    "critical-thinking",
+    "evidence-based"
+  ],
+  "migration": "The standalone truth-first-counterargument skill is retired. Install research-analyst and use its evidence-integrity-guard, fact-check-workflow, source-verification and decision-council modules.",
+  "migration_tr": "Bağımsız truth-first-counterargument skill'inin bakımı sona erdi. research-analyst kurulur; evidence-integrity-guard, fact-check-workflow, source-verification ve decision-council modülleri kullanılır.",
+  "legacy_routes": {
+    "truth-first-counterargument": "research-analyst/modules/evidence-integrity-guard",
+    "counterargument / alternative hypotheses": "research-analyst/modules/decision-council",
+    "claim verification": "research-analyst/modules/fact-check-workflow",
+    "source credibility": "research-analyst/modules/source-verification"
+  },
+  "repository": "truth-first-counterargument-skill",
+  "base_commit": "1b392aac209f81c57c098132122f4a35e01b975a",
+  "canonical_repository": "universal-ai-skill-library"
+}
