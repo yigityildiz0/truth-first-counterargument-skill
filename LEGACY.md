@@ -6,4 +6,4 @@ Use README and DOWNLOADS for the current edition. Old tags/downloads may contain
 
 Türkçe: Güncel kapsam current-release.json ile tanımlanır. Eski katalog ve kaynaklar izlenebilirlik için korunur; eski sayı ve test iddiaları güncel kapsam değildir. Güncel README/indirmeleri kullan. Eski sürümler farklı sağlayıcı/host varsayımları içerebilir. Gemini Deep Research güncel sürümde yoktur.
 
-[Previous README at the preserved base commit](https://github.com/yigityildiz0/truth-first-counterargument-skill/blob/1b392aac209f81c57c098132122f4a35e01b975a/README.md).
+[Previous README at the preserved base commit](https://github.com/yigityildiz0/truth-first-counterargument-skill/blob/143aac877333129a4199e6291d51f2127000823d/README.md).
