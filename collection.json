@@ -20,6 +20,6 @@
     "source credibility": "research-analyst/modules/source-verification"
   },
   "repository": "truth-first-counterargument-skill",
-  "base_commit": "10613aa6a7cf554dc2d61f1e7b216834e22300f4",
+  "base_commit": "e54b0fb3e78c1fcfa0c98d06531ab97c50f5c97d",
   "canonical_repository": "universal-ai-skill-library"
 }
