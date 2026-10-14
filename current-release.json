@@ -1,5 +1,5 @@
 {
-  "edition": "2026.10.14.2",
+  "edition": "2026.10.14.3",
   "repository": "truth-first-counterargument-skill",
   "canonical": "universal-ai-skill-library",
   "skills": [
@@ -9,13 +9,13 @@
     "research-analyst": 1
   },
   "artifact_sha256": {
-    "downloads/ChatGPT.zip": "fa18a8831a8ea04d0c836fa4f11ef5d35f59faa52c894eab3080e9fc079b65be",
+    "downloads/ChatGPT.zip": "e73683202446fbcfddaee2f3904c4732cb7c7e50f2f667fcf2e5ed41582dc616",
     "downloads/Claude.zip": "111cb0b32f53183432032c12380ded37d3de7f9aa39d52c9aea10dab7947d35b",
     "downloads/Codex.zip": "d22ba0c6e6d105efda7d3ca28d4dd6f7b7e58911f22509226caf09dc2835e062",
     "downloads/Gemini.zip": "36bf3ee563f37fbfacc6b0e90e9019a0015b20bdf6d2e491b589c1374d36778f",
     "downloads/portable-skills.zip": "91ccc91ac7117ad2e1876c1bc17c7ffc5af2c427e47753b23b8bc97051df56f0",
     "packages/portable/research-analyst.zip": "91ccc91ac7117ad2e1876c1bc17c7ffc5af2c427e47753b23b8bc97051df56f0",
-    "packages/chatgpt/research-analyst.zip": "621fb6f8d529b4b6c94e0aaaea26286bbb86ba56be0d9161a4f90f477bea2a17",
+    "packages/chatgpt/research-analyst.zip": "c119aad1d3109ee87df0983008f8a68b63597ad93d86758a89f8bf5e2ea5c126",
     "packages/claude/research-analyst.zip": "47f9917d1aa46cbd7d3270e6518eb086c5d8cced1f08c83276f2f11869638132",
     "packages/gemini/research-analyst.zip": "ec4ab01310db5b538624be7152a830bc0b2568fadcab59ac03b700c1ac5384ad"
   },
